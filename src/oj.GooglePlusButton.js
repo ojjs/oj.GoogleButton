@@ -4,7 +4,7 @@ module.exports = function(oj,settings){
   if (typeof settings !== 'object')
     settings = {}
 
-  var GooglePlusButton = oj.type('GooglePlusButton', {
+  var GooglePlusButton = oj.createType('GooglePlusButton', {
 
     base: oj.View,
 
