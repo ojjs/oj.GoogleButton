@@ -1,9 +1,9 @@
 {
-  "name": "oj-google-plus-button",
+  "name": "oj-google-button",
   "version": "0.0.1",
-  "main": "src/oj.GooglePlusButton.js",
+  "main": "oj.GoogleButton.js",
   "description": "Google +1 button for OJ",
-  "homepage": "http://ojjs.org/docs#GooglePlusButton",
+  "homepage": "http://ojjs.org/plugins#GoogleButton",
   "keywords": [
     "oj",
     "plugin",
@@ -13,6 +13,6 @@
   "author": "Evan Moran <evan@evanmoran.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ojjs/oj.GooglePlusButton.git"
+    "url": "git://github.com/ojjs/oj.GoogleButton.git"
   }
 }

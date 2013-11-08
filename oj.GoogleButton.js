@@ -1,10 +1,10 @@
-// oj.GooglePlusButton
+// oj.GoogleButton
 
 module.exports = function(oj,settings){
   if (typeof settings !== 'object')
     settings = {}
 
-  var GooglePlusButton = oj.createType('GooglePlusButton', {
+  var GoogleButton = oj.createType('GoogleButton', {
 
     base: oj.View,
 
@@ -52,7 +52,7 @@ module.exports = function(oj,settings){
         );
       });
 
-      GooglePlusButton.base.constructor.apply(this, [options]);
+      GoogleButton.base.constructor.apply(this, [options]);
 
       this.loadTwitterAPI();
     },
@@ -86,5 +86,5 @@ module.exports = function(oj,settings){
     }
   });
 
-  return {GooglePlusButton:GooglePlusButton};
+  return {GoogleButton:GoogleButton};
 };
